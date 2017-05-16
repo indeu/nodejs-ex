@@ -12,7 +12,7 @@ var apn = require('apn');
 var taskSet = [];
 var dictSet = {};
 
-let service = new apn.Provider({
+var service = new apn.Provider({
           cert: process.env.OPENSHIFT_DATA_DIR + "../repo/keys/dev.pem",
           key: process.env.OPENSHIFT_DATA_DIR + "../repo/keys/dev_key.pem",
           production: false,
