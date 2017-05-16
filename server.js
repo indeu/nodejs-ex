@@ -6,9 +6,9 @@ var express = require('express'),
     morgan  = require('morgan');
 
 var async = require('async');
-//var http = require("http");
-//var https = require("https");
-//var apn = require('apn');
+var http = require("http");
+var https = require("https");
+var apn = require('apn');
 var taskSet = [];
 var dictSet = {};
 

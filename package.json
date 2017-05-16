@@ -12,7 +12,10 @@
     "mongodb": "^2.1.16",
     "morgan": "^1.7.0",
     "object-assign":"4.1.0",
-    "async":"^2.4.0"
+    "async":"^2.4.0",
+    "connect":"^3.6.1",
+    "apns":"^0.1.0",
+    "apn":"^2.1.4"
   },
   "engine": {
     "node": "*",
