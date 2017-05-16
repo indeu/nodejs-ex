@@ -5,7 +5,7 @@ var express = require('express'),
     eps     = require('ejs'),
     morgan  = require('morgan');
 
-//var async = require('async');
+var async = require('async');
 var http = require("http");
 var https = require("https");
 var apn = require('apn');
