@@ -6,20 +6,20 @@ var express = require('express'),
     morgan  = require('morgan');
 
 var async = require('async');
-var http = require("http");
-var https = require("https");
-var apn = require('apn');
+//var http = require("http");
+//var https = require("https");
+//var apn = require('apn');
 var taskSet = [];
 var dictSet = {};
 
-var service = new apn.Provider({
-          cert: process.env.OPENSHIFT_DATA_DIR + "../repo/keys/dev.pem",
-          key: process.env.OPENSHIFT_DATA_DIR + "../repo/keys/dev_key.pem",
-          production: false,
-//          cert: process.env.OPENSHIFT_DATA_DIR + "../repo/keys/dist.pem",
-//          key: process.env.OPENSHIFT_DATA_DIR + "../repo/keys/dist_key.pem",
-//          production: true,
-        });
+//var service = new apn.Provider({
+//          cert: process.env.OPENSHIFT_DATA_DIR + "../repo/keys/dev.pem",
+//          key: process.env.OPENSHIFT_DATA_DIR + "../repo/keys/dev_key.pem",
+//          production: false,
+////          cert: process.env.OPENSHIFT_DATA_DIR + "../repo/keys/dist.pem",
+////          key: process.env.OPENSHIFT_DATA_DIR + "../repo/keys/dist_key.pem",
+////          production: true,
+//        });
 
 Object.assign=require('object-assign')
 
