@@ -1,3 +1,8 @@
+
+
+ !!! Move to "https://bitbucket.org/indeu/nodejschecker" !!!
+
+
 Node.js sample app on OpenShift!
 -----------------
 
